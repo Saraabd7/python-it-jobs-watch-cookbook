@@ -1,0 +1,51 @@
+{
+  "revision_id": "4443f384e2d8d85a2c3a35c169be851b1f4f5af0aa87739d719fcc71da22d654",
+  "name": "python_cookbook",
+  "run_list": [
+    "recipe[python_cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "python_cookbook": {
+      "version": "0.1.0",
+      "identifier": "f2089caca2b9fc20fe78e12a882f0112715aeff6",
+      "dotted_decimal_identifier": "68126413368244732.9286994381932591.1178722824182",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": null,
+        "working_tree_clean": true,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "python_cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "python_cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}
